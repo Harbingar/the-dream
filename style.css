@@ -86,7 +86,7 @@ button:active {
         display: flex;
         align-items: center;
         text-align: center;
-        text-align: center;
+        justify-content: center;
     }
     .amount{
         width: 60%;
