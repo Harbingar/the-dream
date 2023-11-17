@@ -8,13 +8,17 @@ Photo de la maquette du projet
 ![Maquette](img/maquette.PNG)
 
 VERSION WEB :
+
 ![WEB](img/web.PNG)
 
 VERSION MOBILE :
+
 ![MOBILE](img/mobile.PNG)
+
 -----------------------------------------------
-Lien pour voir la site
-[the-dream](the-dream-ts.great-site.net)
+## Lien pour voir la site
+
+[the-dream](http://the-dream-ts.great-site.net/)
 -----------------------------------------------
 ## Techs utilisés
 - PHP
