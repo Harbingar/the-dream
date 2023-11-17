@@ -1,0 +1,180 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #040D12;
+    
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 80vh;
+    width: 70%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #183D3D;
+    justify-content: space-evenly;
+
+}
+button:hover {
+    cursor: pointer;
+    background-color: #5C8374;
+}
+button:active {
+    transform: scale(0.95);
+}
+
+/* Styles spécifiques pour les écrans d'ordinateur */
+@media screen and (min-width: 768px) {
+    .from, .to{
+        display: flex;
+        width: 70%;
+        height: 20vh;
+        justify-content: space-between;
+        align-items: center;
+    }
+    select{
+        border: none;
+        width: 25%;
+        text-align: center;
+        font-size: 250%;
+        color: white;
+        font-family: 'Kdam Thmor Pro', sans-serif;
+    }
+    .from select{
+        background-color: #5C8374;
+    
+    }
+    .to select{
+        background-color: #5C8374;
+    }
+    .to p{
+        text-align: center;
+        font-size: 250%;
+        color:#444444;
+        font-family: 'Kdam Thmor Pro', sans-serif;
+    }
+    .convert{
+        background-color: #93B1A6;
+        width: 20%;
+        height: 10vh;
+        border-radius: 15px;
+        font-size: 200%;
+        text-align: center;
+        border: 2px solid white;
+        color: white;
+        font-family: 'Kdam Thmor Pro', sans-serif;
+    }
+    .selector{
+        border-radius: 15px;
+        height: 100%;
+    }
+    .result{
+        display: flex;
+        width: 60%;
+        height: 100%;
+        border-radius: 15px;
+        justify-content: center;
+        align-items: center;
+        background-color: #d8e4e0;
+    }
+    .result p{
+        display: flex;
+        align-items: center;
+        text-align: center;
+        text-align: center;
+    }
+    .amount{
+        width: 60%;
+        height: 100%;
+        border-radius: 15px;
+        border: none;
+    }
+    input{
+        text-align: center;
+        font-size: 250%;
+        background-color: #d8e4e0;
+        font-family: 'Kdam Thmor Pro', sans-serif;
+    }
+}
+  
+  /* Styles spécifiques pour les appareils mobiles */
+@media screen and (max-width: 767px) {
+    .from, .to{
+        display: flex;
+        width: 70%;
+        height: 20vh;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+    }
+    select{
+        border: none;
+        width: 60%;
+        height: 10vh;
+        text-align: center;
+        font-size: 100%;
+        color: white;
+        font-family: 'Kdam Thmor Pro', sans-serif;
+    }
+    .from select{
+        background-color: #5C8374;
+    
+    }
+    .to select{
+        background-color: #5C8374;
+    }
+    .to p{
+        color: #444444;
+        text-align: center;
+        font-size: 150%;
+        font-family: 'Kdam Thmor Pro', sans-serif;
+    }
+    .convert{
+        background-color: #93B1A6;
+        width: 50%;
+        height: 10vh;
+        border-radius: 15px;
+        font-size: 150%;
+        text-align: center;
+        border: 2px solid white;
+        color: #444444;
+        font-family: 'Kdam Thmor Pro', sans-serif;
+    }
+    .selector{
+        border-radius: 15px;
+        height: 100%;
+    }
+    .result{
+        display: flex;
+        width: 80%;
+        height: 100%;
+        border-radius: 15px;
+        justify-content: center;
+        align-items: center;
+        background-color: #d8e4e0;
+        margin: 10px;
+    }
+    .result p{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .amount{
+        width: 80%;
+        height: 75%;
+        border-radius: 15px;
+        border: none;
+    }
+    input{
+        margin: 10px;
+        text-align: center;
+        font-size: 150%;
+        background-color: #d8e4e0;
+        font-family: 'Kdam Thmor Pro', sans-serif;
+    }
+}
